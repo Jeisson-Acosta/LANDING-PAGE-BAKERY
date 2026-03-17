@@ -5,6 +5,9 @@
     align-items: center;
     padding: 1rem;
     background-color: #fdfbf7;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo-container {
@@ -41,11 +44,14 @@
     & li {
         cursor: pointer;
         font-size: 1rem;
-        color: #64544b;
-        font-weight: bold;    
+        font-weight: bold;      
         transition: all 0.3s ease;
-    }
-    & li:hover {
-        color: #e99b63;
+        & a {
+            text-decoration: none;
+            color: #64544b;
+        }
+        & a:hover {
+            color: #e99b63;
+        }
     }
 }

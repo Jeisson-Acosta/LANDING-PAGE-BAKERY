@@ -11,10 +11,10 @@ export function HeaderApp() {
             </div>
             <nav>
                 <ul>
-                    <li>Our bread</li>
-                    <li>Pastries</li>
-                    <li>Our history</li>
-                    <li>Contact</li>
+                    <li><a href="#our-bread">Our bread</a></li>
+                    <li><a href="#pastries">Pastries</a></li>
+                    <li><a href="#our-philosophy">Our philosophy</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
       </header>
