@@ -81,3 +81,36 @@
         }
     }
 }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+    .footer-app .container-contact {
+        padding: 3rem 1.5rem;
+        & .description-section-contact {
+            width: 90%;
+        }
+        & .title-section-contact {
+            font-size: 2rem;
+            text-align: center;
+        }
+        & .form-contact {
+            flex-direction: column;
+            align-items: stretch;
+            width: 100%;
+            max-width: 340px;
+            & input {
+                width: 100%;
+            }
+            & button {
+                width: 100%;
+            }
+        }
+    }
+
+    .container-end-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+}

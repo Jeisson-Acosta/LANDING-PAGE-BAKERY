@@ -52,3 +52,13 @@
     border-radius: 2rem 2rem 0 0;
     object-fit: cover;
 }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 600px) {
+    .daily-specials-section {
+        padding: 2rem 1.5rem;
+        & h1 {
+            font-size: 1.6rem;
+        }
+    }
+}

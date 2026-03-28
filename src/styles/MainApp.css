@@ -168,3 +168,69 @@
         }
     }
 }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+    .main-app .welcome-section {
+        grid-template-columns: 1fr;
+    }
+
+    .content-right {
+        min-height: 420px;
+        border-radius: 0;
+    }
+
+    .about-section {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .content-right-about {
+        justify-content: center;
+        & .item-description {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .content-left {
+        padding: 2rem 1.5rem;
+    }
+
+    .content-left .title-section {
+        font-size: 2.6rem;
+    }
+
+    .content-left .description {
+        max-width: 100%;
+    }
+
+    .content-right {
+        min-height: 340px;
+        padding: 1.5rem;
+        & .first-image img {
+            width: 260px;
+            height: 240px;
+        }
+        & .second-image {
+            top: 170px;
+            left: 20px;
+        }
+        & .second-image img {
+            width: 110px;
+            height: 110px;
+        }
+    }
+
+    .about-section {
+        padding: 2rem 1.5rem;
+        & .content-left-about h2 {
+            font-size: 1.6rem !important;
+        }
+        & .info-numbers {
+            gap: 1.5rem;
+        }
+    }
+}
